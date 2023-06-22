@@ -31,7 +31,7 @@ function Footer() {
               <a
                 target='_blank'
                 rel='noreferrer'
-                href='https://twitter.com'
+                href='https://twitter.com/SocialMetaNet'
                 style={{ color: 'white' }}
               >
                 <AiOutlineTwitter />

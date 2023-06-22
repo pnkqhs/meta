@@ -70,10 +70,8 @@ html {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00B1A2", endColorstr="#000000", GradientType=1 27);
   opacity: 0.95;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -421,6 +419,25 @@ html {
 }
 
 @media (max-width: 767px) {
+  .navbar {
+    background-color: #ffffff00 !important;
+  }
+  .home-social-icons {
+    position: relative !important;
+    display: inline-block !important;
+    width: 45px !important;
+    height: 45px !important;
+    text-align: center !important;
+    font-size: 0.9em !important;
+    line-height: 2em !important;
+    background: #ffffff !important;
+    border-radius: 50% !important;
+    transition: 0.5s !important;
+  }
+  .home-social-icons svg {
+    width: 30px !important;
+    height: 30px !important;
+  }
   .footer-copywright {
     text-align: center !important;
   }
@@ -683,4 +700,8 @@ html {
 .buy {
   background-color: #45f6fc;
   font-size: 50px;
+}
+
+.img-fluid {
+  width: 70%;
 }

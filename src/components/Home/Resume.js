@@ -16,36 +16,26 @@ function Resume() {
         <Row className='resume'>
           <Col md={6} className='resume-left'>
             <h3 className='resume-title'>PHASE 1</h3>
-            <Resumecontent title='100 holders ' content={[]} />
-            <Resumecontent
-              title='Marketing Started , TrendingBSC'
-              content={[]}
-            />
-            <Resumecontent title='Plan Project and Build' content={[]} />
             <Resumecontent title='Website Development' content={[]} />
-            <Resumecontent title='Build Social' content={[]} />
-            <Resumecontent title='Build Community Trust' content={[]} />
-            <h3 className='resume-title'>PHASE 2</h3>
-            <Resumecontent title='App Beta Test' content={[]} />
+            <Resumecontent title='Launch Pancakeswap' content={[]} />
             <Resumecontent title='Marketing Started' content={[]} />
+            <Resumecontent title='Top Trending on BSC' content={[]} />
+            <Resumecontent title='100 Holders' content={[]} />
+            <h3 className='resume-title'>PHASE 2</h3>
             <Resumecontent title='300 Holders' content={[]} />
-            <Resumecontent title="Build Community's Country" content={[]} />
-            <Resumecontent title='Censor Network Swap' content={[]} />
-            <Resumecontent title='Censor Network Bridge' content={[]} />
+            <Resumecontent title='Listing On CMC, CGC' content={[]} />
+            <Resumecontent title='Build social' content={[]} />
+            <Resumecontent title='Meta Network Swap' content={[]} />
+            <Resumecontent title='Meta Network Bridge' content={[]} />
           </Col>
           <Col md={6} className='resume-right'>
             <h3 className='resume-title'>PHASE 3</h3>
             <Resumecontent title='500 Holders' content={[]} />
             <Resumecontent title='Whitepaper Release' content={[]} />
-            <Resumecontent title='Listing On CMC, CGC' content={[]} />
-            <Resumecontent title='Censor Network Dapps Wallet' content={[]} />
-            <Resumecontent title='Smart Investment AI Bot' content={[]} />
-            <Resumecontent title='Techrate Audit' content={[]} />
+
+            <Resumecontent title='Meta Network Dapp' content={[]} />
+            <Resumecontent title='Audit, KYC' content={[]} />
             <h3 className='resume-title'>PHASE 4</h3>
-            <Resumecontent
-              title='Blockchain Testnet Development'
-              content={[]}
-            />
             <Resumecontent title='Sponsorship & Partnership' content={[]} />
             <Resumecontent title='List CEX' content={[]} />
           </Col>

@@ -12,12 +12,7 @@ function Home() {
         <Container className='home-content'>
           <Row>
             <Col>
-              <img
-                src={homeLogo}
-                alt='home pic'
-                className='img-fluid wave'
-                style={{ height: 660, width: 860 }}
-              />
+              <img src={homeLogo} alt='home pic' className='img-fluid wave' />
               <h1 style={{ paddingTop: 45 }} className='heading'>
                 CA: COMING SOON
               </h1>
